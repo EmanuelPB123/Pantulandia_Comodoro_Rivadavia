@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/recursos/css/bootstrap.min.css">
+    <title>Pantulandia</title>
+    <style>
+        a:hover {
+            font-size: 1.15rem;
+        }
+
+        #capsula {
+            width: 4rem;
+            height: 4rem;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        #logo {
+            border-radius: 50%;
+            box-shadow: black 0rem 0.25rem 0.45rem 0rem;
+        }
+
+        #logo:hover {
+            box-shadow: black 0rem 0.25rem 0.5rem 0rem;
+            border-radius: 50%;
+            transition: 750ms;
+            animation: rotate 2s;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes rotate {
+            0% {
+                box-shadow: black 0rem 0.25rem 0.5rem 0rem;
+                width: 100%;
+                left: 0%;
+                position: relative;
+            }
+
+            25% {
+                box-shadow: black 0rem 1.25rem 0.5rem 0rem;
+                width: 5%;
+                left: 50%;
+                position: relative;
+            }
+
+            50% {
+                box-shadow: black 0rem 0.25rem 0.5rem 0rem;
+                width: 100%;
+                left: 0%;
+                position: relative;
+            }
+
+            75% {
+                box-shadow: black 0rem 1.25rem 0.5rem 0rem;
+                width: 0%;
+                left: 50%;
+                position: relative;
+            }
+
+            100% {
+                box-shadow: black 0rem 0.25rem 0.5rem 0rem;
+                width: 100%;
+                left: 0%;
+                position: relative;
+            }
+        }
+
+        #botom {
+            background-color: rgb(71, 164, 252);
+        }
+
+        #botom:hover {
+            background-color: rgb(183, 235, 255);
+            transition: 1s;
+        }
+    </style>
+</head>
+
+<body style="background-image: url(/recursos/image/404.jpg);background-repeat: no-repeat;background-position: center;">
+</body>
+
+</html>
